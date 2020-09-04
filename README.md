@@ -3,4 +3,16 @@ Convolutional Neural Network trained for age prediction using a large (n=11,729)
 
 Files are in HDF5(.h5) format for easy use in Keras. Model files initalize the architecture and the pre-trained weights.
 
-Due to github size limits the Inception-Resnetv2 model is available here: https://upenn.box.com/v/DeepBrainNet
+Other file can be found here: https://upenn.box.com/v/DeepBrainNet
+
+
+
+
+Use test.sh in the Script folder to perform brain age prediction on T1 brain scans.
+
+- Run test.sh -h to see required parameters
+
+----Data Requirements----
+
+- T1 scans must be in nifti format
+- Scans shoud be skull-striped and linearly registered
